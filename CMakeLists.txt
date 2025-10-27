@@ -16,4 +16,6 @@ add_executable(Low_Latency_Market_Feed main.cpp
         src/normalize/normalize.cpp
         src/output/publisher.cpp
         tests/queue_test.cpp
-        tests/ring_buffer_test.cpp)
+        tests/ring_buffer_test.cpp
+        benchmarks/latency_test.cpp
+        benchmarks/throughput_test.cpp)
